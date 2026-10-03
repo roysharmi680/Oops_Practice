@@ -1,4 +1,4 @@
-abstract class Animal {
+abstract class Animal1 {
 
     // Abstract method
     abstract void sound();
@@ -9,7 +9,7 @@ abstract class Animal {
     }
 }
 
-class Dog extends Animal {
+class Dog extends Animal1 {
 
     // Providing implementation of abstract method
     void sound() {
@@ -17,7 +17,7 @@ class Dog extends Animal {
     }
 }
 
-public class Main {
+public class Animal {
     public static void main(String[] args) {
 
         Dog d = new Dog();
