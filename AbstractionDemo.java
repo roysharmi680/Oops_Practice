@@ -28,3 +28,16 @@ public class AbstractionDemo {
         c.stop();
     }
 }
+/*
+
+    public class AbstractionDemo {
+
+    public static void main(String[] args) {
+
+        Car c = new Car();
+
+        c.start();
+        c.stop();
+    }
+}
+ */
